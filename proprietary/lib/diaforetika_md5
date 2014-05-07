@@ -1,0 +1,30 @@
+ 
+libc2d2
+leipei : libcneapiclient.so
+
+leipoun : libcneqmiutils.so
+35dfd1a453774e4377ed126c96565224  libcneutils.so
+d07211577d75b0748d1229f3cb5c30b4  libcontrast.so
+
+
+diaforetiko: 8e9170e8e97fe670355b0cb0453beac4  libgsl.so
+
+leipoun: 4978c28d0e9afd52836ca78327449cda  libOMX.SEC.AVC.Decoder.aries.so
+ac07aa59953b965b3f742369727daa64  libOMX.SEC.AVC.Encoder.aries.so
+859782ccb55d448346141935cdac8217  libOMX.SEC.M4V.Decoder.aries.so
+cbe6192a8acf82c1493fe288cd02164b  libOMX.SEC.M4V.Encoder.aries.so
+a0dbc0f36af6b5e6204f3840690beb57  libOmxVdec.so
+
+
+diaforetiko: 7c69fc0cc0746f225a18b512b49e1bf8  libOpenVG.so
+
+diaforetiko: b40506b6732696a725b6bcfb3c57e1a3  libsc-a2xx.so
+
+leipei: 7e46b6efa2dc663916eaa1aca9b1789e  libSEC_OMX_Core.aries.so
+
+
+leipoun: 78b0aa36498f0bce09ffee2bc8b6d152  libwtnativetask.so
+1cc30fbdf71350460e10c2c69502d954  libwvm.so
+2b2ef794cce613120fe091932113a2c0  libzy_imgdenoise.so
+
+diaforetiko: b40506b6732696a725b6bcfb3c57e1a3  libsc-a2xx.so
