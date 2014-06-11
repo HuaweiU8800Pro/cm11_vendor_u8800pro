@@ -21,6 +21,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8800pro/proprietary/lib/libaudcal.so:obj/lib/libaudcal.so \
     vendor/huawei/u8800pro/proprietary/lib/liboncrpc.so:obj/lib/liboncrpc.so \
     vendor/huawei/u8800pro/proprietary/lib/libnv.so:obj/lib/libnv.so \
+    vendor/huawei/u8800pro/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so \
 
 PRODUCT_COPY_FILES += \
     vendor/huawei/u8800pro/proprietary/bin/akmd8962:system/bin/akmd8962 \
@@ -150,14 +151,17 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8800pro/proprietary/etc/firmware/cyttsp_7630_fluid.hex:system/etc/firmware/cyttsp_7630_fluid.hex
 
 PRODUCT_COPY_FILES += \
-    vendor/huawei/u8800pro/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-    vendor/huawei/u8800pro/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-    vendor/huawei/u8800pro/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/huawei/u8800pro/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/huawei/u8800pro/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-    vendor/huawei/u8800pro/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
-    vendor/huawei/u8800pro/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
-    vendor/huawei/u8800pro/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
-    vendor/huawei/u8800pro/proprietary/lib/libgsl.so:system/lib/libgsl.so \
-    vendor/huawei/u8800pro/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
-    vendor/huawei/u8800pro/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so
+    vendor/huawei/u8800pro/pulled/system/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
+    vendor/huawei/u8800pro/pulled/system/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
+    vendor/huawei/u8800pro/pulled/system/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
+    vendor/huawei/u8800pro/pulled/system/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
+    vendor/huawei/u8800pro/pulled/system/vendor/lib/egl/libGLESv2S3D_adreno.so:system/vendor/lib/egl/libGLESv2S3D_adreno.so \
+    vendor/huawei/u8800pro/pulled/system/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
+    vendor/huawei/u8800pro/pulled/system/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
+    vendor/huawei/u8800pro/pulled/system/vendor/lib/libc2d2_z180.so:system/vendor/lib/libc2d2_z180.so \
+    vendor/huawei/u8800pro/pulled/system/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
+    vendor/huawei/u8800pro/pulled/system/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
+    vendor/huawei/u8800pro/pulled/system/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
+    vendor/huawei/u8800pro/pulled/system/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
+    vendor/huawei/u8800pro/pulled/system/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
+    vendor/huawei/u8800pro/pulled/system/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so
