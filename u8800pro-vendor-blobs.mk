@@ -21,6 +21,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8800pro/proprietary/lib/libaudcal.so:obj/lib/libaudcal.so \
     vendor/huawei/u8800pro/proprietary/lib/liboncrpc.so:obj/lib/liboncrpc.so \
     vendor/huawei/u8800pro/proprietary/lib/libnv.so:obj/lib/libnv.so \
+    vendor/huawei/u8800pro/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so \
 
 PRODUCT_COPY_FILES += \
     vendor/huawei/u8800pro/proprietary/bin/akmd8962:system/bin/akmd8962 \
