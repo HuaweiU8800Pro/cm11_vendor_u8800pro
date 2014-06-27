@@ -129,7 +129,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8800pro/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/huawei/u8800pro/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
     vendor/huawei/u8800pro/proprietary/lib/libgemini.so:system/lib/libgemini.so \
-    vendor/huawei/u8800pro/proprietary/lib/libmmjps.so:system/lib/libmmjps.so
+    vendor/huawei/u8800pro/proprietary/lib/libmmjps.so:system/lib/libmmjps.so \
     vendor/huawei/u8800pro/proprietary/lib/libcontrast.so:system/lib/libcontrast.so \
     vendor/huawei/u8800pro/proprietary/lib/libzy_imgdenoise.so:system/lib/libzy_imgdenoise.so \
     vendor/huawei/u8800pro/proprietary/lib/libwtnativetask.so:system/lib/ibwtnativetask.so
