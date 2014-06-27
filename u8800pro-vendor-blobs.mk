@@ -21,7 +21,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8800pro/proprietary/lib/libaudcal.so:obj/lib/libaudcal.so \
     vendor/huawei/u8800pro/proprietary/lib/liboncrpc.so:obj/lib/liboncrpc.so \
     vendor/huawei/u8800pro/proprietary/lib/libnv.so:obj/lib/libnv.so \
-    vendor/huawei/u8800pro/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so \
+    vendor/huawei/u8800pro/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so
 
 PRODUCT_COPY_FILES += \
     vendor/huawei/u8800pro/proprietary/bin/akmd8962:system/bin/akmd8962 \
@@ -45,6 +45,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8800pro/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/huawei/u8800pro/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     vendor/huawei/u8800pro/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
+    vendor/huawei/u8800pro/proprietary/bin/radish:system/bin/radish
 
 PRODUCT_COPY_FILES += \
     vendor/huawei/u8800pro/proprietary/lib/hw/camera.msm7x30.so:system/lib/hw/camera.msm7x30.so \
@@ -128,7 +129,10 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8800pro/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/huawei/u8800pro/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
     vendor/huawei/u8800pro/proprietary/lib/libgemini.so:system/lib/libgemini.so \
-    vendor/huawei/u8800pro/proprietary/lib/libmmjps.so:system/lib/libmmjps.so \
+    vendor/huawei/u8800pro/proprietary/lib/libmmjps.so:system/lib/libmmjps.so
+    vendor/huawei/u8800pro/proprietary/lib/libcontrast.so:system/lib/libcontrast.so \
+    vendor/huawei/u8800pro/proprietary/lib/libzy_imgdenoise.so:system/lib/libzy_imgdenoise.so \
+    vendor/huawei/u8800pro/proprietary/lib/libwtnativetask.so:system/lib/ibwtnativetask.so
 
 # firmware
 PRODUCT_COPY_FILES += \
